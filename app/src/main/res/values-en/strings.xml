@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user">User</string>
+    <string name="pass">Password</string>
+    <string name="leave">leaved the room</string>
+    <string name="invite">invited</string>
+    <string name="delete_room_name">cleaned the room name</string>
+    <string name="room_name_change">changed the room name to</string>
+    <string name="room_avatar_change">changed the room avatar</string>
+    <string name="room_create">created the room</string>
+    <string name="join">joined the room</string>
+    <string name="sign_in">sign in</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".activities.RoomsActivity">
+
+    <TextView
+        android:id="@+id/noUsersText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No se encontraron salas!"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/roomList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/menu"
+        android:layout_marginBottom="-46dp" />
+
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:elevation="4dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/buttonMail"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:onClick="onClickedMessage"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/iconomensaje" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/buttonMain"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:onClick="onClickedMain"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/iconomain" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/buttonSetting"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:onClick="onClickedSetting"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/iconosetting2" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</RelativeLayout>

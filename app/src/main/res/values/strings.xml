@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Chiligram</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="leave">salió</string>
+    <string name="invite">invitó a</string>
+    <string name="delete_room_name">borró el nombre de la sala</string>
+    <string name="room_name_change">cambió el nombre de la sala a</string>
+    <string name="room_avatar_change">cambió el icono de la sala</string>
+    <string name="room_create">creó la sala</string>
+    <string name="join">se unió</string>
+    <string name="sign_in">iniciar sesión</string>
+    <string name="channel_name" translatable="false">Chiligram</string>
+    <string name="channel_description" translatable="false">Chiligram notification channel</string>
+    <string name="channel_id" translatable="false">CHGRM</string>
+</resources>
